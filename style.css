@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+    color:#ffff;
+}
+.container{
+    width:90vw;
+    height:90vh;
+    background-color:rgb(75, 80, 80);
+    display: flex;
+    flex-direction: column;
+}
+.table{
+    display: flex;
+    width: 90%;
+    flex-direction:column;
+    border: 1px solid #ffff;
+}
+thead tr {
+    display: flex;
+    gap: 16px;
+    width:100%;
+    justify-content: space-around;
+}
+tbody tr {
+    display: flex;
+    gap: 16px;
+    width:100%;
+    justify-content: space-around;
+}
+/* ########table 2####### */
+#btn1{
+    width:80px;
+    height:20px;
+}
