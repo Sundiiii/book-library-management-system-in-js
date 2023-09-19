@@ -9,7 +9,7 @@ const in2 = document.getElementById("in2");
 
 add.addEventListener("click", adddata);
 
-var info = [
+var info =  [
     {
         name: "rama", age: "30"
     }
